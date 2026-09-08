@@ -25,9 +25,9 @@ The architecture consists of one orchestration agent and three specialized agent
           Agent             Agent               Agent
                 \           |            /
                  \          |           /
-                    Business Data
-                         |
-                 OpenAI Reasoning
+                      Business Data
+                            |
+                     OpenAI Reasoning
 ```
 
 ### Agents
