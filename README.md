@@ -142,33 +142,6 @@ opc-agentic-ai/
 
 ---
 
-## Run the Dashboard
-
-```bash
-streamlit run dashboard.py
-```
-
-The dashboard contains six main views:
-
-1. **Upload TeamPack.xlsx**
-2. **Financial Overview**
-3. **Risk Dashboard**
-4. **AI Decision**
-5. **Founder Approval**
-6. **Audit Log**
-
----
-
-## Input Data
-
-The application expects the MIS Talent OPC Team Pack workbook and validates its worksheet structure before enabling the dashboard.
-
-The competition dataset is **not included in this repository**. Users must provide a compatible `TeamPack.xlsx` file separately.
-
-This keeps the repository focused on the system architecture and avoids redistributing competition data without explicit permission.
-
----
-
 ## Database Design
 
 `opc_schema.sql` provides a normalized PostgreSQL schema for the main business and governance entities, including:
